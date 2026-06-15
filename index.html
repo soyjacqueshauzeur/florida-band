@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florida</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="hero">
+    <video class="hero__video" autoplay muted loop playsinline poster="img/band.jpg" preload="metadata">
+      <source src="video/Video+by+Концерт+группы+Флорида+в+Москве.webm" type="video/webm">
+      <source src="video/Video+by+Концерт+группы+Флорида+в+Москве.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero__content">
+      <nav class="nav">
+        <div class="nav__left">
+          <a href="#about">Группа</a>
+          <a href="#tour">Даты концертов</a>
+        </div>
+
+        <div class="nav__center">
+          <a href="#home">
+            <img src="img/logo.svg" alt="Florida Logo" class="nav__logo">
+          </a>
+        </div>
+
+        <div class="nav__right">
+          <a href="#music">Музыка</a>
+          <a href="#gallery">Фотогалерея</a>
+          <a href="#contact">Контакты</a>
+        </div>
+
+        <div class="nav__mobile">
+          <a href="#about">Группа</a>
+          <a href="#tour">Даты концертов</a>
+          <a href="#music">Музыка</a>
+          <a href="#gallery">Фотогалерея</a>
+          <a href="#contact">Контакты</a>
+        </div>
+
+        <button class="nav__burger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+
+      <div class="hero__bottom">
+        <div class="hero__right">
+          <a href="#tour" class="hero__cta">КУПИТЬ БИЛЕТ</a>
+
+          <div class="hero__social">
+            <a href="https://open.spotify.com/artist/62Rge1gV0t2dkxd9QaT0vF" target="_blank"><i class="fa fa-spotify"></i></a>
+            <a href="https://www.youtube.com/@FloridaOfficial" target="_blank"><i class="fa fa-youtube-play"></i></a>
+            <a href="https://vkvideo.ru/@the_florida_official" target="_blank"><i class="fa fa-vk"></i></a>
+            <a href="https://www.instagram.com/the_florida_official/?hl=ru" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/thefloridaofficial" target="_blank"><i class="fa fa-facebook"></i></a>
+            <!-- <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16"><path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/></svg></a> -->
+            <a href="https://t.me/Rock_band_Florida" target="_blank"><i class="fa fa-telegram"></i></a>
+          </div>
+
+          <p class="hero__text">Рок-группа «Флорида» — это новое дыхание российского рока. Она безусловно является одним из ярких представителей музыкального сообщества. Солистка группы Людмила Серебрякова (финалист шоу "Голос")</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="tour" id="tour">
+    <h2 class="tour__title">ДАТЫ КОНЦЕРТОВ</h2>
+    <img src="img/channels4_banner.jpg" alt="Даты концертов" class="tour__banner">
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">18</span><span class="tour__month">ИЮЛЯ</span></div>
+      <div class="tour__info"><span class="tour__city">САНКТ-ПЕТЕРБУРГ</span><span class="tour__venue">Игора Драйв / ГАРАЖ ФЕСТ 2026</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">23</span><span class="tour__month">ИЮЛЯ</span></div>
+      <div class="tour__info"><span class="tour__city">МОСКВА</span><span class="tour__venue">Дизайн завод / Summersound</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">2</span><span class="tour__month">АВГУСТА</span></div>
+      <div class="tour__info"><span class="tour__city">СОЧИ</span><span class="tour__venue">КЗ Фестивальный</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">3</span><span class="tour__month">АВГУСТА</span></div>
+      <div class="tour__info"><span class="tour__city">ГЕЛЕНДЖИК</span><span class="tour__venue">КДЦ Геленджик Арена</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">9</span><span class="tour__month">АВГУСТА</span></div>
+      <div class="tour__info"><span class="tour__city">КАЛИНИНГРАД</span><span class="tour__venue">ДС Янтарный</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">13</span><span class="tour__month">АВГУСТА</span></div>
+      <div class="tour__info"><span class="tour__city">САНКТ-ПЕТЕРБУРГ</span><span class="tour__venue">10/12 Мануфактура / Summersound</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">16</span><span class="tour__month">АВГУСТА</span></div>
+      <div class="tour__info"><span class="tour__city">ЯЛТА</span><span class="tour__venue">КЗ Юбилейный</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">10</span><span class="tour__month">ОКТЯБРЯ</span></div>
+      <div class="tour__info"><span class="tour__city">МИНСК</span><span class="tour__venue">МКСК Минск-Арена</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">20</span><span class="tour__month">ОКТЯБРЯ</span></div>
+      <div class="tour__info"><span class="tour__city">ПЕРМЬ</span><span class="tour__venue">УДС Молот</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">21</span><span class="tour__month">ОКТЯБРЯ</span></div>
+      <div class="tour__info"><span class="tour__city">ЕКАТЕРИНБУРГ</span><span class="tour__venue">MTC Live Холл</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">7</span><span class="tour__month">НОЯБРЯ</span></div>
+      <div class="tour__info"><span class="tour__city">МОСКВА</span><span class="tour__venue">LIVE Арена</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">22</span><span class="tour__month">НОЯБРЯ</span></div>
+      <div class="tour__info"><span class="tour__city">НИЖНИЙ НОВГОРОД</span><span class="tour__venue">КРК Нагорный</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">24</span><span class="tour__month">НОЯБРЯ</span></div>
+      <div class="tour__info"><span class="tour__city">КАЗАНЬ</span><span class="tour__venue">Татнефть Арена</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">25</span><span class="tour__month">НОЯБРЯ</span></div>
+      <div class="tour__info"><span class="tour__city">КИРОВ</span><span class="tour__venue">Олимп-Арена</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">23</span><span class="tour__month">ФЕВРАЛЯ 2027</span></div>
+      <div class="tour__info"><span class="tour__city">ПЕНЗА</span><span class="tour__venue">Дизель-Арена</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+    <div class="tour__row">
+      <div class="tour__date"><span class="tour__day">8</span><span class="tour__month">МАРТА 2027</span></div>
+      <div class="tour__info"><span class="tour__city">САНКТ-ПЕТЕРБУРГ</span><span class="tour__venue">СКА Арена</span></div>
+      <a href="#" class="tour__ticket">КУПИТЬ БИЛЕТ</a>
+    </div>
+  </section>
+
+  <section class="streaming" id="streaming">
+    <div class="streaming__header">
+      <h2 class="streaming__title">ИССЛЕДУЙТЕ</h2>
+      <p class="streaming__subtitle">Концерты, новости, альбомы, музыка, видео и многое другое.</p>
+    </div>
+
+    <section class="streaming__row streaming__row--top" id="top-section">
+      <article class="streaming__card streaming__card--large">
+        <img src="img/band.jpg" alt="Florida Live" class="streaming__img">
+        <div class="streaming__overlay">
+          <!-- <span class="streaming__badge">LIVE</span> -->
+          <h3 class="streaming__card-title">Florida — Концерт</h3>
+          <p class="streaming__card-desc">Прямая трансляция из Москвы</p>
+          <button class="streaming__btn">Смотреть</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--large">
+        <img src="img/ypoaqgbMt3M.jpg" alt="Behind the Scenes" class="streaming__img">
+        <div class="streaming__overlay">
+          <!-- <span class="streaming__badge">NEW</span> -->
+          <h3 class="streaming__card-title">За кулисами</h3>
+          <p class="streaming__card-desc">Как создаются наши альбомы</p>
+          <button class="streaming__btn">Смотреть</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--large">
+        <img src="img/561428876_18368834341155206_7365887709793529929_n.jpg" alt="Acoustic Session" class="streaming__img">
+        <div class="streaming__overlay">
+          <!-- <span class="streaming__badge">EXCLUSIVE</span> -->
+          <h3 class="streaming__card-title">Акустическая сессия</h3>
+          <p class="streaming__card-desc">Живое исполнение лучших хитов</p>
+          <button class="streaming__btn">Слушать</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--large">
+        <img src="img/glastonberry.jpg" alt="Documentary" class="streaming__img">
+        <div class="streaming__overlay">
+          <!-- <span class="streaming__badge">SERIES</span> -->
+          <h3 class="streaming__card-title">Документальный фильм</h3>
+          <p class="streaming__card-desc">История группы Флорида</p>
+          <button class="streaming__btn">Смотреть</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--large">
+        <img src="img/573720711_18372972493155206_1615208536671631129_n.jpg" alt="Tour Diary" class="streaming__img">
+        <div class="streaming__overlay">
+          <!-- <span class="streaming__badge">LIVE</span> -->
+          <h3 class="streaming__card-title">Дневник тура</h3>
+          <p class="streaming__card-desc">Путешествия по городам России</p>
+          <button class="streaming__btn">Смотреть</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--large">
+        <img src="img/mezzo.jpg" alt="Music Video" class="streaming__img">
+        <div class="streaming__overlay">
+          <!-- <span class="streaming__badge">PREMIERE</span> -->
+          <h3 class="streaming__card-title">Новый клип</h3>
+          <p class="streaming__card-desc">Официальная премьера</p>
+          <button class="streaming__btn">Смотреть</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="streaming__row streaming__row--bottom" id="bottom-section">
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Вендетта.jpeg" alt="Вендетта" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2026 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Вендетта</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Танцы над Москвой.jpeg" alt="Танцы над Москвой" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2026 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Танцы над Москвой</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Слишком сладко.jpeg" alt="Слишком сладко" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2025 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Слишком сладко</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Послание.jpeg" alt="Послание" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">EP</h3>
+          <p class="streaming__card-meta">2025 · 3 songs</p>
+          <button class="streaming__btn streaming__btn--small">Послание</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Забери.jpeg" alt="Забери" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2025 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Забери</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/По маршруту семи ветров.jpeg" alt="По маршруту семи ветров" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2025 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">По маршруту семи ветров</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Цена победы.jpeg" alt="Цена победы" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2025 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Цена победы</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Мир сошёл с ума.jpeg" alt="Мир сошёл с ума" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2024 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Мир сошёл с ума</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Нет 2.jpeg" alt="Нет 2" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2024 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Нет 2</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Я остаюсь.jpeg" alt="Я остаюсь" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2024 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Я остаюсь</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Мой рай.jpeg" alt="Мой рай" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2023 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Мой рай</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Нет.jpeg" alt="Нет" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2023 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Нет</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Плачет солдат (Cover).jpeg" alt="Плачет солдат (Cover)" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2023 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Плачет солдат (Cover)</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Лирика.jpeg" alt="Лирика" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">EP</h3>
+          <p class="streaming__card-meta">2023 · 3 songs</p>
+          <button class="streaming__btn streaming__btn--small">Лирика</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Кто Я.jpeg" alt="Кто Я" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2023 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Кто Я?</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Когда-то.jpeg" alt="Когда-то" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2023 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Когда-то...</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Время делать твой ход.jpeg" alt="Время делать твой ход" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2022 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Время делать твой ход</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Нам не покинуть ад.jpeg" alt="Нам не покинуть ад" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2022 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Нам не покинуть ад</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Твой ход.jpeg" alt="Твой ход" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">EP</h3>
+          <p class="streaming__card-meta">2021 · 6 songs</p>
+          <button class="streaming__btn streaming__btn--small">Твой ход</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Город в огне (Instrumental).jpeg" alt="Город в огне (Instrumental)" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">EP</h3>
+          <p class="streaming__card-meta">2021 · 6 songs</p>
+          <button class="streaming__btn streaming__btn--small">Город в огне (Instrumental)</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Тебе на встречу (Instrumental).jpeg" alt="Тебе на встречу (Instrumental)" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">EP</h3>
+          <p class="streaming__card-meta">2021 · 6 songs</p>
+          <button class="streaming__btn streaming__btn--small">Тебе на встречу (Instrumental)</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Без тебя.jpeg" alt="Без тебя" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2021 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Без тебя</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Твой день.jpeg" alt="Твой день" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2020 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Твой день</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Город в огне 2.jpeg" alt="Город в огне 2" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2020 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Город в огне 2</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Город в огне.jpeg" alt="Город в огне" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">EP</h3>
+          <p class="streaming__card-meta">2019 · 6 songs</p>
+          <button class="streaming__btn streaming__btn--small">Город в огне</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Люби красиво.jpeg" alt="Люби красиво" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2018 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Люби красиво</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Игра на выживание 2.jpeg" alt="Игра на выживание 2" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">Сингл</h3>
+          <p class="streaming__card-meta">2018 · 1 song</p>
+          <button class="streaming__btn streaming__btn--small">Игра на выживание 2</button>
+        </div>
+      </article>
+      <article class="streaming__card streaming__card--small">
+        <img src="img/album/Тебе на встречу.jpeg" alt="Тебе на встречу" class="streaming__img">
+        <div class="streaming__overlay">
+          <h3 class="streaming__card-title">EP</h3>
+          <p class="streaming__card-meta">2017 · 6 songs</p>
+          <button class="streaming__btn streaming__btn--small">Тебе на встречу</button>
+        </div>
+      </article>
+    </section>
+  </section>
+
+  <section class="vocalist" id="vocalist">
+    <div class="vocalist__video">
+      <iframe src="https://vkvideo.ru/video_ext.php?oid=-123519611&id=456239103&hash=73b8e7bee4b72917&hd=4" width="100%" height="100%" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="vocalist__profile">
+      <div class="vocalist__photo-wrap">
+        <img src="img/684676764_18586691692043480_1215602685305616055_n.jpg" alt="Людмила Серебрякова" class="vocalist__photo">
+      </div>
+      <div class="vocalist__text">
+        <h3 class="vocalist__name">Людмила Серебрякова</h3>
+        <span class="vocalist__role">Фронтвумен рок-группы «Флорида»</span>
+        <p class="vocalist__desc">Людмила Серебрякова (род. 6 сентября 2001 года, Москва) — российская певица, автор песен и фронтвумен рок-группы «Флорида». Широкую известность получила как финалистка 11-го сезона шоу «Голос» на Первом канале.</p>
+        <p class="vocalist__desc">Названа в честь Людмилы Гурченко. С 4 лет выступала в детском театре-студии «Непоседы». До «Голоса» участвовала в шоу «Новая звезда», «Х-Фактор Беларусь» и «Битва талантов».</p>
+        <p class="vocalist__desc">Стала солисткой и лицом рок-группы, с которой выступает на крупных площадках, таких как московский клуб PRAVDA. Имеет степень магистра Института современного искусства (эстрадно-джазовый вокал) и работает педагогом по вокалу.</p>
+        <div class="vocalist__social">
+          <a href="https://www.youtube.com/@ludmilaserebriakova" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          <a href="https://vk.com/ludmila_serebriakova" target="_blank"><i class="fa fa-vk"></i></a>
+          <a href="https://www.instagram.com/ludmila_serebriakova/" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.threads.com/@ludmila_serebriakova" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-threads" viewBox="0 0 16 16"><path d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="videos">
+    <div class="videos__header">
+      <h2 class="videos__title">Видео</h2>
+    </div>
+    <div class="videos__wrapper">
+      <div class="videos__track">
+        <div class="videos__scroll">
+        <div class="videos__item"><iframe src="https://www.youtube.com/embed/AI6d1Cs0JaU" title="Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videos__item"><iframe src="https://www.youtube.com/embed/9JBaiRoL-wk" title="Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videos__item"><iframe src="https://www.youtube.com/embed/5rQ57L12MYg" title="Video 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videos__item"><iframe src="https://www.youtube.com/embed/enusi6C32o8" title="Video 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videos__item"><iframe src="https://www.youtube.com/embed/BHpFwAMt4A8" title="Video 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videos__item"><iframe src="https://www.youtube.com/embed/7xMTtE3zWbc" title="Video 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videos__item"><iframe src="https://www.youtube.com/embed/V6sFXX8id0c" title="Video 7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videos__item"><iframe src="https://www.youtube.com/embed/eKiSwlgEyWc" title="Video 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videos__item"><iframe src="https://www.youtube.com/embed/e4XZ2rtoVMY" title="Video 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videos__item"><iframe src="https://www.youtube.com/embed/xhoiBb4TQRI" title="Video 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact__card">
+      <div class="contact__top">
+        <div class="contact__artist">
+          <div class="contact__vk-icon">VK</div>
+          <div>
+            <h3 class="contact__title">Официальная страница Людмилы Серебряковой ВКонтакте</h3>
+            <p class="contact__subtitle">Подписывайтесь и будьте в курсе событий раньше всех</p>
+          </div>
+        </div>
+        <div class="contact__phones">
+          <img src="img/684676764_18586691692043480_1215602685305616055_n.jpg" alt="Profile" class="contact__phone-img">
+          <img src="img/band.jpg" alt="Profile" class="contact__phone-img contact__phone-img--offset">
+        </div>
+      </div>
+      <div class="contact__divider"></div>
+      <div class="contact__bottom">
+        <div class="contact__col">
+          <span class="contact__label">Расположение</span>
+          <span class="contact__value contact__value--location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/></svg> Россия, Москва</span>
+        </div>
+        <div class="contact__col">
+          <span class="contact__label">Концерты</span>
+          <a href="tel:+89118108186" class="contact__value">8 (911) 810-81-86</a>
+        </div>
+        <div class="contact__col">
+          <span class="contact__label">Email</span>
+          <a href="mailto:ЛюдмилаСеребрякова@mail.ru" class="contact__value">ЛюдмилаСеребрякова@mail.ru</a>
+          <span class="contact__person">Людмила Серебрякова</span>
+        </div>
+        <div class="contact__col">
+          <span class="contact__label">Сайт</span>
+          <a href="https://florida-official.ru" target="_blank" class="contact__value">florida-official.ru</a>
+        </div>
+      </div>
+      <a href="#" class="contact__policy">Политика обработки персональных данных</a>
+    </div>
+  </section>
