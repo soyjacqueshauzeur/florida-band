@@ -17,24 +17,3 @@ burger.addEventListener('click', (e) => {
 document.addEventListener('click', (e) => {
   if (!nav.contains(e.target)) closeMenu();
 });
-
-const topSection = document.getElementById('top-section');
-const bottomSection = document.getElementById('bottom-section');
-
-if (topSection && bottomSection) {
-  let syncing = false;
-
-  topSection.addEventListener('scroll', () => {
-    if (syncing) return;
-    syncing = true;
-    bottomSection.scrollLeft = topSection.scrollLeft * 0.7;
-    requestAnimationFrame(() => { syncing = false; });
-  });
-
-  bottomSection.addEventListener('scroll', () => {
-    if (syncing) return;
-    syncing = true;
-    topSection.scrollLeft = bottomSection.scrollLeft / 0.7;
-    requestAnimationFrame(() => { syncing = false; });
-  });
-}

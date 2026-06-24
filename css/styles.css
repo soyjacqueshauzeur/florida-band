@@ -700,6 +700,7 @@ p {
     flex-direction: row;
     justify-content: center;
     gap: 0.5rem;
+    align-items: center;
   }
 
   .tour__info {
@@ -941,9 +942,27 @@ p {
   margin-top: 0.1rem;
 }
 
+.contact__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 13px;
+  color: #000;
+}
+
+.contact__footer a {
+  color: #000;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.contact__footer a:hover {
+  color: #86868b;
+}
+
 .contact__policy {
   display: inline-block;
-  margin-top: 2rem;
   font-size: 13px;
   color: #86868b;
   text-decoration: underline;
