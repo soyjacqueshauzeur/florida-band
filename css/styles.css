@@ -315,7 +315,8 @@ p {
 .tour__row:hover .tour__day,
 .tour__row:hover .tour__month,
 .tour__row:hover .tour__city,
-.tour__row:hover .tour__venue {
+.tour__row:hover .tour__venue,
+.tour__row:hover .tour__time {
   color: var(--california-500);
 }
 
@@ -325,8 +326,14 @@ p {
 
 .tour__date {
   display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+.tour__day-month {
+  display: flex;
   flex-direction: row;
-  gap: 1em;
+  gap: 0.5em;
 }
 
 .tour__day {
@@ -346,6 +353,12 @@ p {
   /* letter-spacing: 4px; */
   text-transform: uppercase;
   color: #fff;
+}
+
+.tour__time {
+  font-size: 14px;
+  color: #999;
+  margin-top: 0.2em;
 }
 
 .tour__info {
@@ -375,15 +388,27 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: clamp(0.4rem, 1.5vw, 0.6rem) clamp(0.8rem, 2vw, 1.5rem);
-  border: 1px solid #fff;
+  border: 1px solid var(--california-500);
   border-radius: 0.5em;
   background: transparent;
-  color: #fff;
+  color: var(--california-500);
   transition: background 0.3s, color 0.3s;
   white-space: nowrap;
 }
 
 .tour__ticket:hover {
+  background: var(--california-500);
+  border-color: var(--california-500);
+  color: #fff;
+}
+
+.tour__tickets {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tour__tickets .tour__ticket:hover {
   background: var(--california-500);
   border-color: var(--california-500);
   color: #fff;
@@ -641,6 +666,21 @@ p {
   color: var(--california-500);
 }
 
+@media (max-width: 928px) {
+  .tour__tickets {
+    width: 100%;
+  }
+
+  .tour__ticket {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tour__ticket:first-child {
+    margin-top: 0.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .hero__right {
     align-items: flex-end;
@@ -668,6 +708,10 @@ p {
 
   .tour__ticket {
     justify-self: center;
+  }
+
+  .tour__tickets {
+    align-items: center;
   }
 
   .tour__banner {
