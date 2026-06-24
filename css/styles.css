@@ -481,7 +481,7 @@ p {
 }
 
 .streaming__card--large {
-  width: 70vw;
+  width: 85vw;
   max-width: 900px;
   aspect-ratio: 16 / 9;
 }
